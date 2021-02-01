@@ -9,7 +9,7 @@
         <div class="principal">
             <div class="informacion">
                 <div class="foto">
-                    <div class="enlace"><img src="https://mortadelo-filemon.es/images/photos/Francisco_Ibanez/ibanez1.jpg"></div>
+                    <div id="enlace"><img id="enlace2" src="https://mortadelo-filemon.es/images/photos/Francisco_Ibanez/ibanez1.jpg"></div>
                     <div class="datosperson">
                         <h3>Datos personales:</h3>
                         <ul>
@@ -55,8 +55,15 @@
                 </div>
             </div>
             <div class="enlaces">
-
+                <div id="enlacesText">
+                    <p>¿Quieres conocer la imagen no-oficial de Francisco Ibáñez o mantener la actual?</p>
+                </div>
+                <div id="enlacesBoton">
+                    <button style="margin: 10px" onclick="cambiar()">Cambiar</button>
+                    <button style="margin: 10px"onclick="mantener()">Mantener</button>
+                </div>
             </div>
-        </div>  
+        </div>
+        <script src="main.js"></script> 
     </body>
 </html>
